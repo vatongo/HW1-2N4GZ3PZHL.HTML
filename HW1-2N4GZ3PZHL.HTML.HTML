@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+    
+        
+        .container{
+    
+            /* padding: 12px 70px 70px 70px;
+t            margin: 70px 50px; */
+           
+            background-color: rgba(133, 146, 145, 0.15);
+            /* display: inline block; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        input[type="text"]{
+            width: 98%;
+            padding: 10px;
+            border: 1px solid beige;
+            
+            
+            
+        }
+        select{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid beige;
+            border-radius: 2px;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid beige;
+            border-radius: 2px;
+            padding-top: 10px;
+            
+            
+        }
+        .inputContainer{
+            /* margin-left: 10px;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 13px; */
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            width: 100%;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            flex-direction: column;
+        }
+       button{
+           align-self: flex-start;
+           background-color: rgb(120, 173, 120);
+           margin-top: 20px;
+           color: white;
+           border: 1px solid beige;
+           border-radius: 2px;
+       }
+
+        
+         </style>
+</head>
+<body>
+    <div class="container">
+<form action="#" name="Contact form">
+    <div class="inputContainer">
+        <label for="First Name">First Name</label>
+        <input class="Yname" name="Your name.." type="text" required placeholder="Your name..">
+    </div>
+    
+    
+    <div class="inputContainer">
+        <label for="Last Name">Last Name</label>
+        <input class="lastname" name="Your last name.." type="text" required placeholder="Your last name..">
+    </div>
+    
+    <div class="inputContainer">
+        <label for="Country">Country</label>
+        <!-- <div class="select"> -->
+            <select name="Country">
+                <div class="option" >
+                <option value="Australia">Australia</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Benin">Benin</option>
+                </div>
+            </select>
+            <!-- </div> -->
+    </div>
+
+    <div class="inputContainer">
+        <label for="Subject">Subject</label>
+        <textarea class="text" name="Write something.." id="#" cols="50" rows="10">Write something..</textarea>
+    </div>
+   
+    
+    <button type="submit">Submit</button>
+    
+
+
+
+
+
+
+
+
+
+
+</form>
+</div>
+</body>
+</html>
